@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    .contianer {
+      background-color: black;
+      width: 150px;
+      height: 150px;
+      transition: transform 1s;
+      box-shadow: 5px 5px 10px #777;
+    }
+    h1 {
+      margin: 0;
+      text-align: center;
+      color: aliceblue;
+    }
+    .contianer:hover {
+      transform: rotate(90deg);
+      transform: scale(0.5, 0.5);
+      box-shadow: 15px 15px 10px #aaa;
+    }
+  </style>
+  <!-- the scale prop used to reduce or incerase the size of the container -->
+  <!-- google about some skew scale values in w3schools that's enough  -->
+  <body>
+    <div class="contianer">
+      <h1>Hello</h1>
+    </div>
+  </body>
+</html>
